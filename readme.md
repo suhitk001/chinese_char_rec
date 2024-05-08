@@ -1,6 +1,8 @@
 
-steps to run code : 
+steps to run code :
+
 pip install cnocr
+
 pip install onnxruntime
 
 python3 cn_ocr.py
@@ -10,6 +12,12 @@ python3 cn_ocr.py
 
 output - 
 Predicted Chars: Hello world!你好世界
+
+
 ['Hello', 'world', '你好世界']
+
+
 Chinese words: ['你好世界']
+
+
 English words: ['Hello', 'world']
